@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <title>Github search app</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="title">
+        <h1>devfinder</h1>
+      </div>
+        <div class="mode">
+          <span class="mode-text">DARK</span>
+          <div class="mode-icon"><img src="assets/icon-moon.svg"></div>
+        </div>
+    </header>
+    <!--header end-->
+    <div class="search">
+      <div>
+        <div>
+          <img src="assets/icon-search.svg" alt="search.svg">
+        </div>
+        <div>
+        <input type="text" name="user-input" placeholder="Search Github username..." class="entry">
+        </div>
+      </div>
+      <div>
+        <p class="error">No results</p>
+        <button class="btn-search">Search</button>
+      </div>
+    </div>
+    <!--div search end-->
+    <div class="user-profile">
+      <div class="image"></div>
+      <div class="content">
+        <div class="user-basic-info">
+          <div class="name">
+            <h2 class="full-name">The Octocat</h2>
+            <p class="user-name">@octocat</p>
+          </div>
+          <div class="date">
+            <p class="info-date">Joined 25 Jan 2011</p>
+          </div>
+        </div>
+        <!--user-basic-info end-->
+        <div class="bio">
+          <p class="bio-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla natus nostrum illum ex tempora.</p>
+        </div>
+        <!--bio end-->
+        <div class="current-status">
+          <div class="current-value">
+            <p>Repos</p>
+            <p class="repos">8</p>
+          </div>
+          <div class="current-value">
+            <p>Followers</p>
+            <p class="followers">3938</p>
+          </div>
+          <div class="current-value">
+            <p>Following</p>
+            <p class="following">9</p>
+          </div>
+        </div>
+        <!--curent status end-->
+        <div class="user-bottom-info">
+          <div class="bottom-left">
+            <div class="icons-info">
+              <div class="bottom-icons">
+                <img src="assets/icon-location.svg" alt="location.svg"></div>
+                <p><a class="location" href="#">San Francisco</a></p>
+            </div>
+            <div class="icons-info">
+              <div class="bottom-icons"><img src="assets/icon-website.svg" alt="website.svg"></div>
+                <p><a class="link" href="#">https://github.blog</a></p>
+            </div>
+          </div>
+          <div class="bottom-right">
+            <div class="icons-info">
+              <div class="bottom-icons twitter-img"><img src="assets/icon-twitter.svg" alt="twitter.svg"></div>
+              <p><a class="twitter" href="#">Not Available</a></p>
+            </div>
+            <div class="icons-info">
+              <div class="bottom-icons"><img src="assets/icon-company.svg" alt="company.svg"></div>
+              <p><a class="company" href="#">@github</a></p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  </div>
+ <script src="script.js"></script>
+</body>
+</html>
